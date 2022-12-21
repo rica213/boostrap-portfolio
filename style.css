@@ -137,18 +137,38 @@ h1 > span {
 }
 
 /* End About section */
+
+/* Contact */
+.contact {
+  background-image:
+    url(img/desktop/illustration-1-contact-form-desktop.svg),
+    url(img/desktop/illustration-2-contact-form-desktop.svg),
+    url(img/desktop/contact-form-illustratoin-3-desktop.svg);
+  background-position: bottom left, 20% 85%, bottom right;
+  background-repeat: no-repeat;
+  padding-bottom: 225px;
+}
+
 .contact p {
-    font-family: "Inter", sans-serif;
-    font-size: 30px; 
-    line-height: 52px;
-    color: #172B4D;
-    width: 463px;
-    height: 256px;
-    font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  line-height: 52px;
+  color: #172b4d;
+  width: 463px;
+  height: 256px;
+  font-weight: 700;
 }
 
 .form-row {
-    display: flex;
+  display: flex;
 }
 
-.
+/* End Contact */
+
+/* Footer */
+/* stylelint-disable-next-line no-descending-specificity */
+footer ul {
+  display: flex;
+}
+
+/* End Footer */
