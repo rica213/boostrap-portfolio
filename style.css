@@ -1,42 +1,94 @@
-header {
-    background-image: url("./img/desktop/Header-llustration-desktop.svg");
-    /* height: 1034px; */
-    height: 800px;
+body {
+  font-family: "Inter", sans-serif;
 }
 
-.nav-link{
-    color: #172B4D;
-    font-family: 'Inter', sans-serif;
-    font-size: 0,9375em
-    ;
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.3em;
+  color: #172b4d;
+  padding-bottom: 52px;
+}
+
+/* Header */
+
+header {
+  background-image: url("./img/desktop/Header-llustration-desktop.svg");
+  height: 1150px;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: #172b4d;
+  font-size: 0, 9375em;
 }
 
 h1 {
-    font-size: 3em; 
-    line-height: 1.25em;
+  font-size: 3em;
+  line-height: 1.25em;
+  color: #172b4d;
 }
 
-span{
-    color:#36B37E;
+h1 > span {
+  color: #36b37e;
 }
 
 .pt-3 {
-    margin-top: 200px;
+  margin-top: 200px;
 }
+
 .headline {
- width: 63.88%;
+  width: 63.88%;
 }
 
 .headline p {
- font-size: 1.25rem;  
- line-height: 1.6em;
- padding-top: 20Cpx;
+  font-size: 1.25rem;
+  line-height: 1.6em;
+  padding-top: 20px;
 }
 
 .headline ul {
-    display: flex;
+  display: flex;
 }
 
 .headline .arrow-down {
-    display: flex;
+  display: flex;
 }
+
+/* End Header */
+
+/* Project Section */
+.card-img-top {
+  height: 252px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.3em;
+  color: #172b4d;
+}
+
+.project ul li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.3em;
+  letter-spacing: 0.03em;
+  color: #172b4d;
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.project .btn.btn-primary {
+  background: #36b37f;
+  border-color: #36b37f;
+  border-radius: 4px;
+}
+
+/* End Project Section */
