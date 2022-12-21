@@ -1,0 +1,42 @@
+header {
+    background-image: url("./img/desktop/Header-llustration-desktop.svg");
+    /* height: 1034px; */
+    height: 800px;
+}
+
+.nav-link{
+    color: #172B4D;
+    font-family: 'Inter', sans-serif;
+    font-size: 0,9375em
+    ;
+}
+
+h1 {
+    font-size: 3em; 
+    line-height: 1.25em;
+}
+
+span{
+    color:#36B37E;
+}
+
+.pt-3 {
+    margin-top: 200px;
+}
+.headline {
+ width: 63.88%;
+}
+
+.headline p {
+ font-size: 1.25rem;  
+ line-height: 1.6em;
+ padding-top: 20Cpx;
+}
+
+.headline ul {
+    display: flex;
+}
+
+.headline .arrow-down {
+    display: flex;
+}
