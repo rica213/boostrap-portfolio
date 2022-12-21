@@ -8,7 +8,6 @@ body {
   font-size: 2.5rem;
   line-height: 1.3em;
   color: #172b4d;
-  padding-bottom: 52px;
 }
 
 /* Header */
@@ -42,7 +41,8 @@ h1 > span {
   width: 63.88%;
 }
 
-.headline p {
+.headline p,
+.about p {
   font-size: 1.25rem;
   line-height: 1.6em;
   padding-top: 20px;
@@ -59,6 +59,10 @@ h1 > span {
 /* End Header */
 
 /* Project Section */
+.project .title {
+  padding-bottom: 52px;
+}
+
 .card-img-top {
   height: 252px;
   object-fit: cover;
@@ -82,13 +86,54 @@ h1 > span {
   color: #172b4d;
   background: #ebf0ee;
   border-radius: 4px;
-  padding: 5px;
 }
 
-.project .btn.btn-primary {
+.project .btn.btn-primary,
+.about .btn.btn-primary {
   background: #36b37f;
   border-color: #36b37f;
   border-radius: 4px;
 }
 
 /* End Project Section */
+
+/* About section */
+.about {
+  padding-top: 192px;
+  background-image:
+    url(img/desktop/bg_img_one.svg),
+    url(img/desktop/bg_img_two.svg);
+  background-repeat: no-repeat;
+  background-position: right 10%, left 35%;
+}
+
+.about .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-description {
+  width: 63.88%;
+}
+
+.about .btn.btn-primary {
+  width: 20%;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.about .skills-wrapper .card {
+  background: #ebf0ee;
+}
+
+.about .skills-wrapper li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.3em;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  background-color: #fff;
+}
+
+/* End About section */
